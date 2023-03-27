@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Project one</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+   <style>
+      body {
+
+         margin: 0px;
+         padding: 0px;
+         background: url("img/Gym\ img.webp") no-repeat center center/cover;;
+         color: white;
+         /* font-family: 'Bebas Neue', cursive; */
+      }
+
+      .left {
+
+         /*    border: 2px solid red;  */
+         display: inline-block;
+         position: absolute;
+         left: 30px;
+         top: 20px;
+         text-align: center;
+         line-height: 18px;
+         font-size: 28px;
+         font-family: 'Bebas Neue', cursive;
+      }
+
+      .left img {
+         width: 130px;
+      }
+
+      .mid {
+         /*    border: 2px solid green;  */
+         display: block;
+         margin: 20px auto;
+         width: 44%;
+
+      }
+
+      .right {
+
+         /*    border: 2px solid yellow;  */
+         display: inline-block;
+         position: absolute;
+         right: 30px;
+         top: 20px;
+      }
+
+      .navbar {
+         display: inline-block;
+      }
+
+      .navbar li {
+         display: inline-block;
+         font-size: 20px;
+      }
+
+      .navbar li a {
+         color: white;
+         text-decoration: none;
+         padding: 9px 12px;
+         margin: 2px 12px;
+         font-family: 'Bebas Neue', cursive;
+         font-size: 20px;
+         /* border: 2px solid black; */
+         border-radius: 21px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active {
+         text-decoration: underline;
+         color: rgb(94, 92, 92);
+         background-color: white;
+      }
+
+      .btn {
+         margin: 2px 8px;
+         padding: 5px 10px;
+         border: 2px solid gray;
+         border-radius: 10px;
+         background-color: black;
+         color: white;
+         font-size: 20px;
+         cursor: pointer;
+         font-family: 'Bebas Neue', cursive;
+
+      }
+
+      .btn:hover {
+         background-color: rgb(113, 111, 111);
+      }
+
+
+      .container {
+         /*   border: 2px solid rgb(248, 244, 244);  */
+         /* margin: 170px 0px; */
+         margin: 99px 0px;
+         width: 33%;
+         border-radius: 10px;
+
+         padding: 75px 75px;
+      }
+
+      .formgrp input {
+         text-align: center;
+         display: block;
+         width: 50%;
+         margin: 11px auto;
+         padding: 10px 10px;
+         border: 2px solid black;
+         border-radius: 10px;
+         font-family: 'Bebas Neue', cursive;
+
+      }
+
+      .container h1 {
+         text-align: center;
+         font-family: 'Bebas Neue', cursive;
+         font-size: 47px;
+
+      }
+
+      .container button {
+         display: block;
+         width: 92px;
+         margin: auto;
+      }
+   </style>
+</head>
+
+<body>
+   <heder class="heder">
+
+      <div class="left">
+         <img src="img/body.jpg.webp" alt="">
+         <div><h3>Harry Fitness</h3></div>
+      </div>
+
+      <div class="mid">
+
+         <ul class="navbar">
+            <li> <a href="#" class="active"> Home </a></li>
+            <li> <a href="#"> Aboutus </a></li>
+            <li> <a href="#"> Contactus </a></li>
+            <li> <a href="#"> fitnesscal </a></li>
+
+         </ul>
+
+
+      </div>
+
+      <div class="right">
+         <button class="btn">callus</button>
+         <button class="btn">Emailus</button>
+      </div>
+
+   </heder>
+
+
+
+   <div class="container">
+      <h1>We Are Now In Ichalkaranji</h1>
+
+      <form action="noaction.php">
+
+         <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your Name">
+         </div>
+
+         <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your Contact">
+         </div>
+
+         <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your Address">
+         </div>
+
+         <div class="formgrp">
+            <input type="text" name="" placeholder="Enter your weight">
+         </div>
+
+      </form>
+
+      <button class="btn">Submit</button>
+
+   </div>
+</body>
+
+</html>
